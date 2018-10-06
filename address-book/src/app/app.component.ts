@@ -6,14 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'new-app';
-  video = {
-    title: 'Despacito',
-    views: 2,
-    liked: true
-  }
-
-  handleClick(){
-    console.log('Someone clicked on the template :-)')
-  }
+  title = 'address-book';
 }
