@@ -1,15 +1,15 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
+import { CardComponent } from './card/card.component';
 import { Input } from '@angular/core'
-
 
 describe('AppComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent, CardComponent
       ],
       imports: [
         FormsModule
@@ -40,7 +40,7 @@ describe('AppComponent', () => {
     app.contact = contact;
     app.createNewContact();
 
-    expect(app.contact[app.contact.length -1]).toEqual(contact);
+    expect(app.contacts[app.contacts.length -1]).toEqual(contact);
    }));
 
   });
