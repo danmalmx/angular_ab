@@ -12,13 +12,13 @@ export class CardComponent implements OnInit {
 
   ngOnInit() {
     this.contact = {
-      name: "",
-      email: "",
-      company: "",
-      role: "",
-      twitter: "",
-      location: "",
-      notes: ""
+      name: '',
+      email: '',
+      company: '',
+      role: '',
+      twitter: '',
+      location: '',
+      notes: ''
     };
   }
 } 
