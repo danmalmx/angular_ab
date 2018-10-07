@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   contact: any;
-  contacts: any [] = [];
+  contacts: any[] = [];
 
   title = 'address-book';
 

@@ -1,6 +1,6 @@
 <div class="card">
     <div class="image">
-      <img src="#" />
+      <img src="{{ contact.image }}"/>
     </div>
     <div class="content">
       <div class="location">{{ contact.location }}</div>
@@ -8,6 +8,6 @@
       <h2>{{ contact.role }}</h2>
       <p>{{ contact.notes }}</p>
         {{ contact.email }} |
-      <a href="https://www.twitter.com/{{contact.twitter}}">@{{contact.twitter}}</a>
+      <a href="https://www.twitter.com/{{ contact.twitter }}">@{{contact.twitter}}</a>
     </div>
-  </div>
+</div>
