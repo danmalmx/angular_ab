@@ -1,3 +1,13 @@
-<p>
-  card works!
-</p>
+<div class="card">
+    <div class="image">
+      <img src="#" />
+    </div>
+    <div class="content">
+      <div class="location">{{ contact.location }}</div>
+      <h1>{{ contact.name }}</h1>
+      <h2>{{ contact.role }}</h2>
+      <p>{{ contact.notes }}</p>
+        {{ contact.email }} |
+      <a href="https://www.twitter.com/{{contact.twitter}}">@{{contact.twitter}}</a>
+    </div>
+  </div>
