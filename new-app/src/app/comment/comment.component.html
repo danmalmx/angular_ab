@@ -1,0 +1,18 @@
+<p>
+  comment works!
+</p>
+
+<p>
+  Daniel
+</p>
+
+<ul>
+    <li *ngFor="let video of videos">
+      Title: {{video.title}}
+      Liked: {{video.liked}}
+    </li>
+  </ul>
+
+<p *ngIf="isShown">This should be hidden or shown</p>
+
+<button (click)="showClick()">Hide/show text</button>
